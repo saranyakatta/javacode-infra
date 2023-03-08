@@ -1,6 +1,6 @@
 ---
 - name: Building infra for cicd
-  hosts: "{{ env }}"
+  hosts: "{{env}}"
   vars_files:
     - ./vars/myvars.yaml
   roles:
